@@ -18,7 +18,9 @@
             android:layout_weight="7.5"
             android:gravity="center"
             android:orientation="vertical">
-
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
             <EditText
                 android:id="@+id/latitude"
                 android:layout_width="match_parent"
@@ -28,7 +30,10 @@
                 android:inputType="numberDecimal"
                 android:textColor="#000"
                 android:textColorHint="#c9c9c9" />
-
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
             <EditText
                 android:id="@+id/longitude"
                 android:layout_width="match_parent"
@@ -38,7 +43,10 @@
                 android:inputType="numberDecimal"
                 android:textColor="#000"
                 android:textColorHint="#c9c9c9" />
-
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
             <EditText
                 android:id="@+id/name"
                 android:layout_width="match_parent"
@@ -48,7 +56,7 @@
                 android:inputType="textAutoCorrect"
                 android:textColor="#000"
                 android:textColorHint="#c9c9c9" />
-
+            </android.support.design.widget.TextInputLayout>
             <TextView
                 android:id="@+id/settingRadius"
                 android:layout_width="match_parent"
